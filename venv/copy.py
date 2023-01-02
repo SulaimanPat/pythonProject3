@@ -23,7 +23,7 @@ while my_money!=0:
     stop=input("Вы хотите продолжить игру? Да/Нет: ").capitalize()
     if stop == "Да":
         continue
-    elif stop==" Нет":
+    elif stop=="Нет":
         print('Игра завершена')
         break
     else:
